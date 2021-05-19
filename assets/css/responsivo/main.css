@@ -1,0 +1,29 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-bar{
+    background-color: blue;
+    height: 60px;
+}
+
+.hero{
+    background-color: blueviolet;
+    height: 60px;
+}
+
+.content-main{
+    background-color: brown;
+    height: 60px;
+}
+
+.contato{
+    background-color:cornflowerblue;
+    height: 60px;
+}
+
+.footer{
+    background-color: black;
+    height: 60px;
+}
