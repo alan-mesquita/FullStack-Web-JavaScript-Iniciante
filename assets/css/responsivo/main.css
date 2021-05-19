@@ -1,12 +1,52 @@
 html,body{
     padding: 0px;
     margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/*-----------------Inicio Nav-bar-----------------*/
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+    display: block;
+}
+
+.center{
+    margin: 0 auto;
 }
 
 .nav-bar{
-    background-color: blue;
+    background-color: rgb(3, 3, 80);
     height: 60px;
 }
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+}
+
+.list-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a{
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+/*-----------------Fim Nav-bar-----------------*/
 
 .hero{
     background-color: blueviolet;
