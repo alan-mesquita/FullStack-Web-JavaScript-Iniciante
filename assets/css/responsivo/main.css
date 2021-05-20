@@ -21,18 +21,18 @@ html,body{
 
 .nav-bar{
     background-color: rgb(3, 3, 80);
-    height: 60px;
+    height: auto;
 }
 
 ul{
+    text-align: right;
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
 }
 
 li{
-    margin-top: 20px;
+    margin: 10px;
     display: inline-block;
-    float: right;
 }
 
 .list-link {
@@ -42,7 +42,6 @@ li{
 }
 
 a{
-    padding: 0 10px;
     list-style-type: none;
 }
 

@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px) and (max-width: 800px) {
+    ul{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:479px) {
+    ul{
+        text-align: center;
+    }
+    li.menu-link{
+        display: block;
+    }
+}
