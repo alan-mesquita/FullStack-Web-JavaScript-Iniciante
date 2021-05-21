@@ -1,0 +1,28 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+    display: block;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    float:left;
+    width: 100%;
+}
+
+.center{
+    margin: 0 auto;
+}
