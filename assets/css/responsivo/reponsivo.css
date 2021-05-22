@@ -2,6 +2,21 @@
     ul{
         text-align: center;
     }
+    /*-------------------------Area de Destaque-------------------------*/
+    .destaque{
+        padding: 80px;
+        height: 50vh;
+    }
+    .destaque-ttile{
+        font-size: 26px;
+    }
+    .destaque-text{
+        font-size: 15px;
+    }
+    .destaque-button{
+        display: block;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:479px) {
@@ -10,5 +25,20 @@
     }
     li.menu-link{
         display: block;
+    }
+    /*-------------------------Area de Destaque-------------------------*/
+    .destaque{
+        padding: 80px 30px;
+        height: auto;
+    }
+    .destaque-ttile{
+        font-size: 24px;
+    }
+    .destaque-text{
+        font-size: 15px;
+    }
+    .destaque-button{
+        display: block;
+        width: 100%;
     }
 }

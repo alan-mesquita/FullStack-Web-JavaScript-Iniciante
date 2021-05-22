@@ -28,12 +28,13 @@ a{
 
 /*-----------------Fim Nav-bar-----------------*/
 
+/*-------------------------Inico do Destaque-------------------------*/
 .destaque{
     background-image: url(../imgs/professional-programmer-working-late-in-the-dark-office.jpg);
-    background-size: 100%;
+    background-size: cover;
     height: 70vh;
     background-repeat: no-repeat;
-    padding: 200px 100px 0 100px;
+    padding: 150px 100px 0 100px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
@@ -52,12 +53,13 @@ a{
     border: none;
     border-radius: 10px;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .destaque-button:hover {
     background-color: rgb(172, 170, 170);
 }
+/*-------------------------Fim do Destaque-------------------------*/
 
 .content-main{
     background-color: brown;
