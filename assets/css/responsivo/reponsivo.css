@@ -5,9 +5,9 @@
     /*-------------------------Area de Destaque-------------------------*/
     .destaque{
         padding: 80px;
-        height: 50vh;
+        height: auto;
     }
-    .destaque-ttile{
+    .destaque-title{
         font-size: 26px;
     }
     .destaque-text{
@@ -17,6 +17,10 @@
         display: block;
         width: 100%;
     }
+    /*-------------------------Area de Destaque-------------------------*/
+    .content-main {
+        padding: 30px;
+    }
 }
 
 @media screen and (max-width:479px) {
@@ -25,13 +29,14 @@
     }
     li.menu-link{
         display: block;
+        margin: 10px;
     }
     /*-------------------------Area de Destaque-------------------------*/
     .destaque{
-        padding: 80px 30px;
+        padding: 80px 15px;
         height: auto;
     }
-    .destaque-ttile{
+    .destaque-title{
         font-size: 24px;
     }
     .destaque-text{
@@ -41,4 +46,13 @@
         display: block;
         width: 100%;
     }
+
+    /*-------------------------Area de Destaque-------------------------*/
+    .content-main {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 801px){
+    .lg-3{width: 33.333333%;}
 }
