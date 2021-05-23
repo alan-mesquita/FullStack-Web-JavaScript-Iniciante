@@ -18,6 +18,7 @@ ul{
 }
 
 li{
+    margin: 10px;
     display: inline-block;
 }
 
@@ -37,27 +38,30 @@ a{
 .destaque{
     background-image: url(../imgs/professional-programmer-working-late-in-the-dark-office.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
     background-repeat: no-repeat;
-    padding: 150px 50px 0px 50px;
+    padding: 100px 100px 0px 100px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
 
 .destaque-title{
-    font-size: 30px;
+    font-size: 38px;
 }
 
 .destaque-text{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .destaque-button{
+    font-size: 14px;
     text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgb(6, 113, 175);;
     border: none;
     border-radius: 10px;
-    padding: 10px;
-    margin-top: 30px;
+    padding: 10px 15px;
+    margin-top: 15px;
 }
 
 .destaque-button:hover {
@@ -89,12 +93,33 @@ a{
     font-size: 15px;
     font-weight: 500;
 }
+/*-----------------Fim do content - main-----------------*/
 
+/*-----------------Inicio-----------------*/
 .contato{
-    background-color:cornflowerblue;
-    height: 60px;
+    background-color:grey;
+    height: auto;
+    padding: 100px;
 }
 
+.white{
+    color: #ffffff;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.full{
+    display: block;
+    width: 100%;
+}
+
+.no-margin-button-top{
+    margin-top: 0px;
+}
+
+/*-----------------Fim-----------------*/
 .footer{
     background-color: black;
     height: 60px;
