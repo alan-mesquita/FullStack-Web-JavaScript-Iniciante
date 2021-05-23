@@ -21,6 +21,11 @@
     .content-main {
         padding: 30px;
     }
+    /*-------------------------Area do Footer-------------------------*/
+    .footer li.footer-list{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (max-width:479px) {
@@ -56,10 +61,16 @@
     .contato{
         padding: 30px 15px;
     }
+    /*-------------------------Area do Footer-------------------------*/
+    .footer li.footer-list{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 801px){
-    .lg-3{width: 33.333333%;}
     .lg-2{width: 20%;}
+    .lg-3{width: 33.333333%;}
+    .lg-5{width: 50%;}
     .lg-8{width: 80%;}
 }

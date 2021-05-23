@@ -121,6 +121,25 @@ a{
 
 /*-----------------Fim-----------------*/
 .footer{
+    color: #ffffff;
     background-color: black;
-    height: 60px;
+    height: auto;
+    padding: 15px;
+
+}
+.footer ul{
+    padding: 0px;
+}
+
+.footer li.footer-list{
+    display: block;
+    text-align: left;
+    margin: 10px;
+}
+.footer a{
+    text-decoration: none;
+}
+
+.footer p, a{
+    color: #ffffff;
 }
